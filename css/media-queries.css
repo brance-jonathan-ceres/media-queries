@@ -4,58 +4,100 @@
     padding: 0;
 }
 
+/*body {*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.alert-info {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 5em;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.alert-info a {*/
+/*    display: flex;*/
+/*    background-color: #CBFCFD;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*    border: 1px solid lightgray;*/
+/*}*/
+
+/*nav {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*}*/
+
+/*.nav-links {*/
+/*    list-style: none;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.nav-links li {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.nav-links a {*/
+/*    display: block;*/
+/*    background: #CCCCCC;*/
+/*    text-align: center;*/
+/*    height: 3em;*/
+/*    margin: .5em;*/
+/*}*/
+
 body {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     width: 90%;
-    margin: 0 auto;
+    margin: 1em auto;
+
 }
 
 .alert-info {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 5em;
-    align-items: center;
+    text-align: center;
 }
 
 .alert-info a {
-    display: flex;
-    background-color: #CBFCFD;
-    width: 100%;
-    height: 80%;
-    justify-content: center;
-    align-items: center;
-    color: black;
+    display: block;
+    padding: 1em 0;
+    border: 1px solid lightgrey;
+    background: #D6FEFE;
     text-decoration: none;
-    border: 1px solid lightgray;
+    color: black;
 }
 
-nav {
-    width: 100%;
-    display: flex;
+h1 {
+    text-align: center;
 }
 
 .nav-links {
+    padding: .5em 0;
+    text-align: center;
     list-style: none;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.nav-links li {
-    width: 100%;
 }
 
 .nav-links a {
     display: block;
-    background: #CCCCCC;
-    text-align: center;
-    height: 3em;
-    margin: .5em;
+    background: lightgrey;
+    margin: .5em 0;
+    padding: .9em 0;
 }
+
+h1 {
+    padding: 10px 0;
+}
+
+
 
 
