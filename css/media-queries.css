@@ -85,14 +85,35 @@ h2 {
         background-color: white;
     }
     
+    /*.main {*/
+    /*    width: 60%;*/
+    /*    float: left;*/
+    /*    !*padding-right: 1em;*!*/
+    /*}*/
+
+    /*.sub-section {*/
+    /*    width: ;*/
+    /*    float: left;*/
+    /*}*/
     .main {
+        display: inline-block;
         width: 60%;
         float: left;
-        padding-right: 1em;
     }
 
+    .sub-section {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        margin-top: 1em;
+    }
 
+    footer {
+        clear: both;
+        margin-top: 30em;
+    }
 
-
-
+    h2 {
+        margin-bottom: 2em;
+    }
 }
