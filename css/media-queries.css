@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .alert-info {
@@ -23,7 +25,7 @@ body {
 .alert-info a {
     display: flex;
     background-color: #CBFCFD;
-    width: 90%;
+    width: 100%;
     height: 80%;
     justify-content: center;
     align-items: center;
@@ -32,5 +34,19 @@ body {
     border: 1px solid lightgray;
 }
 
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    width: 100%;
+}
+
+.nav-links a {
+    display: block;
+    padding: .8em 9em;
+    margin-bottom: 10px;
+    background: #CCCCCC;
+}
 
 
