@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 90%;
+    width: 95%;
     margin: 1em auto;
 
 }
@@ -84,12 +84,15 @@ h2 {
     .nav-links a {
         background-color: white;
     }
-
+    
     .main {
+        width: 60%;
+        float: left;
+        padding-right: 1em;
     }
 
-    .sub-section {
-    }
+
+
 
 
 }
