@@ -14,7 +14,22 @@ body {
 
 .alert-info {
     width: 100%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 9%;
+    align-items: center;
+}
+
+.alert-info a {
+    display: flex;
+    background-color: #CBFCFD;
+    width: 90%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border: 1px solid lightgray;
 }
 
 
